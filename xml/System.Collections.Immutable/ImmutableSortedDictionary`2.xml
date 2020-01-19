@@ -433,6 +433,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IComparer&lt;TKey&gt; ^ KeyComparer { System::Collections::Generic::IComparer&lt;TKey&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.KeyComparer : System.Collections.Generic.IComparer&lt;'Key&gt;" Usage="System.Collections.Immutable.ImmutableSortedDictionary&lt;'Key, 'Value&gt;.KeyComparer" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.ISortKeyCollection`1.KeyComparer</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>

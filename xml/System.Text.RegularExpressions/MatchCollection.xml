@@ -301,6 +301,10 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="System.Text.RegularExpressions.MatchCollection.IsReadOnly" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.ICollection`1.IsReadOnly</InterfaceMember>
+        <InterfaceMember>P:System.Collections.IList.IsReadOnly</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -386,6 +390,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Text::RegularExpressions::Match ^ default[int] { System::Text::RegularExpressions::Match ^ get(int i); };" />
       <MemberSignature Language="F#" Value="member this.Item(int) : System.Text.RegularExpressions.Match" Usage="System.Text.RegularExpressions.MatchCollection.Item" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.IReadOnlyList`1.Item(System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Text.RegularExpressions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

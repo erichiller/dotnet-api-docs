@@ -757,6 +757,9 @@ All collections, including empty sets, are supersets of an empty set. Therefore,
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IComparer&lt;T&gt; ^ KeyComparer { System::Collections::Generic::IComparer&lt;T&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.KeyComparer : System.Collections.Generic.IComparer&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.KeyComparer" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.ISortKeyCollection`1.KeyComparer</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>

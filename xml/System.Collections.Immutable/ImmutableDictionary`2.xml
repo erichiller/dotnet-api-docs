@@ -263,6 +263,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool ContainsValue(TValue value);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.ContainsValue : 'Value -&gt; bool" Usage="immutableDictionary.ContainsValue value" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableDictionaryInternal`2.ContainsValue(`1)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -443,6 +446,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEqualityComparer&lt;TKey&gt; ^ KeyComparer { System::Collections::Generic::IEqualityComparer&lt;TKey&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.KeyComparer : System.Collections.Generic.IEqualityComparer&lt;'Key&gt;" Usage="System.Collections.Immutable.ImmutableDictionary&lt;'Key, 'Value&gt;.KeyComparer" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.IHashKeyCollection`1.KeyComparer</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
